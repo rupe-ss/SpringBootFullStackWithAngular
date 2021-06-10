@@ -1,4 +1,4 @@
-package springboot.angular;
+package springboot.angular.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -9,11 +9,11 @@ import java.util.List;
 import java.util.UUID;
 
 @Service
-public class service {
+public class EmployeeService {
     private final EmployeeRepo employeeRepo;
 
     @Autowired
-    public service(EmployeeRepo employeeRepo) {
+    public EmployeeService(EmployeeRepo employeeRepo) {
         this.employeeRepo = employeeRepo;
     }
 
