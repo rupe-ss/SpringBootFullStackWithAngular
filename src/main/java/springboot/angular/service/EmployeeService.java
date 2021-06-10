@@ -3,6 +3,7 @@ package springboot.angular.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import springboot.angular.domain.Employee;
+import springboot.angular.exception.UserNotFoundException;
 import springboot.angular.repo.EmployeeRepo;
 
 import java.util.List;
